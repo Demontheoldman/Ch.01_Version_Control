@@ -79,13 +79,29 @@ tommy.right(90)
 tommy.forward(150)
 tommy.end_fill()
 
+#tina is making the soil/dirt 
+
+tina.color('lime')
+
+tina.goto(300,300)
+
 #tommy makes the white line for the flag 
 
+tommy.pendown()
+tommy.begin_fill()
+tommy.color('white')
 tommy.left(90)
 tommy.forward(10)
 tommy.left(90)
 tommy.forward(300)
 tommy.left(90)
+tommy.forward(10)
+tommy.left(90)
+tommy.forward(300)
+tommy.left(90)
+tommy.forward(10)
+tommy.penup()
+tommy.end_fill()
 
 
 
